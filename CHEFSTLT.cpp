@@ -9,11 +9,11 @@ int main()
   cin>>t;
   while(t--)
   {
-    char s1[100];
-    char s2[100];
+    string s1;
+    string s2;
     cin>>s1>>s2;
     int count1=0,count2=0;
-    for(int i=0;i<strlen(s1);i++)
+    for(int i=0;i<s(s1);i++)
     {
       if(s1[i]=="?")
         count1++;
